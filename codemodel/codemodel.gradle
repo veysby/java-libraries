@@ -2,6 +2,8 @@
 apply plugin: 'java'
 apply plugin: 'eclipse'
 
+sourceCompatibility = 1.7
+
 dependencies {
 	compile group: 'com.sun.codemodel', name: 'codemodel', version: '2.6'
 	testCompile 'junit:junit:4.11'
