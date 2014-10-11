@@ -1,0 +1,20 @@
+
+configure(allprojects) {
+    group = 'veysby'
+    version = '0.1-SNAPSHOT'
+
+    sourceCompatibility = 1.7
+    targetCompatibility = 1.7
+
+    buildscript.repositories {
+        maven { url 'http://jcenter.bintray.com/' }
+    }
+
+    repositories {
+        maven { url 'http://jcenter.bintray.com/' }
+    }
+
+    task wrapper(type: Wrapper) {
+        gradleVersion = '2.1'
+    }
+}
