@@ -12,7 +12,7 @@ configure(allprojects) {
     }
 }
 
-configure {
+configure(project) {
     task wrapper(type: Wrapper) {
         gradleVersion = '2.1'
     }
