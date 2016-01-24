@@ -1,9 +1,10 @@
 
-rootProject.name = 'java-libraries'
+rootProject.name = 'sandbox'
 
 include 'codemodel'
 include 'jdk7'
 include 'jdk8-oracle-mooc'
+include 'jdk8'
 
 rootProject.children.each { project ->
     project.buildFileName = "${project.name}.gradle"
